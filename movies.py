@@ -12,11 +12,11 @@ actress TEXT,
 yearOfRelease INTEGER,);''')
 
 cnt.execute('''INSERT INTO movies VALUES(
-'Pushpa', 'Allu Arjun', 'Rashmika Mandana', 2021);''')
+'3 idiots', 'Amir Khan', 'Karina Kapur', 2009);''')
 
 cnt.commit()
 
 
 cnt.execute('SELECT * FROM movies')
 
-cnt.execute('SELECT * FROM movies WHERE actor = 'Allu Arjun'')
+cnt.execute('SELECT * FROM movies WHERE actress = 'Karina Kapur'')
