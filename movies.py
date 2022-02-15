@@ -5,12 +5,12 @@ cnt = sqlite3.connect("demo.db")
 print('Connection established Successfully')
 
 #create table
-# cnt.execute('''CREATE TABLE movies(
-# name TEXT,
-# actor TEXT,
-# actress TEXT,
-# yearOfRelease INTEGER)''')
-# print("Table Created Successfully")
+cnt.execute('''CREATE TABLE movies(
+name TEXT,
+actor TEXT,
+actress TEXT,
+yearOfRelease INTEGER)''')
+print("Table Created Successfully")
 
 
 #insert record
